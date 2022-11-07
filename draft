@@ -1,0 +1,128 @@
+<section class="mb-5">
+	<div id="carousel-2" class="carousel slide" data-ride="carousel" style="top:600px;left:250px;">
+
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-2" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-2" data-slide-to="1"></li>
+          <li data-target="#carousel-2" data-slide-to="2"></li>
+          <li data-target="#carousel-2" data-slide-to="3"></li>
+		  <li data-target="#carousel-2" data-slide-to="4"></li>
+          <li data-target="#carousel-2" data-slide-to="5"></li>
+          <li data-target="#carousel-2" data-slide-to="6"></li>
+	      <li data-target="#carousel-2" data-slide-to="7"></li>
+          <li data-target="#carousel-2" data-slide-to="8"></li>
+          <li data-target="#carousel-2" data-slide-to="9"></li>
+	      <li data-target="#carousel-2" data-slide-to="10"></li>
+          <li data-target="#carousel-2" data-slide-to="11"></li>
+          <li data-target="#carousel-2" data-slide-to="12"></li>
+		  <li data-target="#carousel-2" data-slide-to="13"></li>
+		</ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active">
+            <img class="d-block img-fluid" src="PIC/refferns/ref1.jpeg" alt="ref1">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+
+	      <div class="carousel-item active">
+            <img class="d-block img-fluid" src="PIC/refferns/ref2.jpeg" alt="ref2">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+
+	      <div class="carousel-item active">
+            <img class="d-block img-fluid" src="PIC/refferns/ref3.jpeg" alt="ref3">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+
+	      <div class="carousel-item active">
+            <img class="d-block img-fluid" src="PIC/refferns/ref4.jpeg" alt="ref4">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+
+	      <div class="carousel-item active">
+            <img class="d-block img-fluid" src="PIC/refferns/ref5.jpeg" alt="ref5">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+
+	      <div class="carousel-item active">
+            <img class="d-block img-fluid" src="PIC/refferns/ref6.jpeg" alt="ref6">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+
+	      <div class="carousel-item active">
+            <img class="d-block img-fluid" src="PIC/refferns/ref7.jpeg" alt="ref7">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+
+	      <div class="carousel-item active">
+            <img class="d-block img-fluid" src="PIC/refferns/ref8.jpeg" alt="ref8">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+
+	      <div class="carousel-item active">
+            <img class="d-block img-fluid" src="PIC/refferns/ref9.jpeg" alt="ref9">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+
+	      <div class="carousel-item active">
+            <img class="d-block img-fluid" src="PIC/refferns/ref10.jpeg" alt="ref10">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+
+	      <div class="carousel-item active">
+            <img class="d-block img-fluid" src="PIC/refferns/ref11.jpeg" alt="ref11">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+
+	      <div class="carousel-item active">
+            <img class="d-block img-fluid" src="PIC/refferns/ref12.jpeg" alt="ref12">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+
+	      <div class="carousel-item active">
+            <img class="d-block img-fluid" src="PIC/refferns/ref13.jpeg" alt="ref13">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+
+
+        </div><!-- e carousel-inner -->
+
+        <a class="carousel-control-prev2" href="#carousel-2" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">prev</span>
+        </a>
+
+        <a class="carousel-control-next2" href="#carousel-2" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">next</span>
+        </a>
+         ul.grid-part li{
+	list-style:none;
+}
+ ul.grid-part li a{
+	color:#BEBDBD;
+	text-decoration:none;
+	padding:0.2em 0;
+	display:block;
+	font-size: 1.1em;
+}
+ ul.grid-part li a:hover{
+	color:#f5c506;
+	padding-left:0.2em;
+}
+ul.grid-part {
+  margin: 0.5em 0 2em;

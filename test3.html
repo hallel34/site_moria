@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+        <div class="draft posts" id="draft_1"><div class='container'>
+            <div class='col-md-12'>
+              <div class='carousel slide' id='myCarousel'>
+                <div class='carousel-inner'>
+                  <div class='item active'>
+                    <div class='col-lg-6 col-xs-6 col-md-6 col-sm-6'>
+                      <div id='border'>
+                        <a href='#'></a>
+                        <div class='text-center'>
+                          Revised
+                        </div>
+                        <div class='view-draft-title'>
+
+                                  <h2>I'm editing htis draft</h2>
+                                <p contenteditable="true"> </p>
+                        </div>
+                        <div class='view-draft-body'>
+
+                                  <h2>I'm editing htis draft</h2>
+                                <p contenteditable="true"> </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='item'>
+                    <div class='col-lg-6 col-xs-6 col-md-6 col-sm-6'>
+                      <div id='border'>
+                        <a href='#'></a>
+                        <div class='text-center'>
+                          Original
+                        </div>
+                        <div class='view-draft-title'>
+                          <h1>This is Tsteting new draft</h1>
+                        </div>
+                        <div class='view-draft-body'>
+                          <h2>Click to W<span style="color: rgb(51, 51, 51); font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif; font-size: 14px; line-height: 25px;">$('#post-body textarea').val(content)&nbsp;</span><span style="line-height: 1.1;">&nbsp;editing</span></h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class='left carousel-control' data-slide='prev' href='draft_1 #myCarousel'>
+                <i class='glyphicon glyphicon-chevron-left'></i>
+              </a>
+              <a class='right carousel-control' data-slide='next' href='draft_1 #myCarousel'>
+                <i class='glyphicon glyphicon-chevron-right'></i>
+              </a>
+            </div>
+          </div>
+          </div>
+          <div class="draft posts" id="draft_2">
+              <div class='container'>
+            <div class='col-md-12'>
+              <div class='carousel slide' id='myCarousel'>
+                <div class='carousel-inner'>
+                  <div class='item active'>
+                    <div class='col-lg-6 col-xs-6 col-md-6 col-sm-6'>
+                      <div id='border'>
+                        <a href='#'></a>
+                        <div class='text-center'>
+                          Revised
+                        </div>
+                        <div class='view-draft-title'>
+
+                                  <h2>Draft 2 After edit</h2>
+                        </div>
+                        <div class='view-draft-body'>
+
+                                  <h2>Draft 2 After edit</h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+                <div class='item'>
+                    <div class='col-lg-6 col-xs-6 col-md-6 col-sm-6'>
+                      <div id='border'>
+                        <a href='#'></a>
+                        <div class='text-center'>
+                          Original
+                        </div>
+                        <div class='view-draft-title'>
+                          <h1>Number 2</h1>
+                        </div>
+                        <div class='view-draft-body'>
+                          <h2>Draft 2 before edit</h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class='left carousel-control' data-slide='prev' href='draft_2 #myCarousel'>
+                <i class='glyphicon glyphicon-chevron-left'></i>
+              </a>
+                <a class='right carousel-control' data-slide='next' href='draft_2 #myCarousel2'>
+                <i class='glyphicon glyphicon-chevron-right'></i>
+                </a>
+                <script>
+                    $('#myCarousel2').carousel({
+                        interval: 10000
+                      })
+
+                      $('.carousel .item').each(function(){
+                        var next = $(this).next();
+                        if (!next.length) {
+                          next = $(this).siblings(':first');
+                        }
+                        next.children(':first-child').clone().appendTo($(this));
+                   </script>
+
+
+</div>
+</body>
+    </html>
